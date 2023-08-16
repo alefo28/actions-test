@@ -27,3 +27,4 @@ jobs:
     - run: |
         npm i
         npm run build 
+        pm2 reload 4
